@@ -1,8 +1,9 @@
 import time
 
 def timestamp(func):
-    def printDate():
+    def wrapper(*args, **kwargs):       #allows u to pass multiple arg/keywords to function
         print(time.ctime)
-        func()
+        result = func(*args, *kwargs)
+        return result
     
-    return printDate()
+    return wrapper
