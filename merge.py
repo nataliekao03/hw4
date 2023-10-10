@@ -1,11 +1,4 @@
 def merge_list(list1, list2):
-    if not(isinstance(list1, list) and isinstance(list2, list)):
-        raise TypeError("Inputs should be lists")
-    
-    for item in list1 + list2:
-        if not isinstance(item, int):
-            raise TypeError("Inputs can only contain integers")
-    
     new_arr = []
     i = 0
     j = 0
