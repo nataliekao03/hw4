@@ -11,13 +11,12 @@ def merge_list(list1, list2):
     j = 0
 
     while i < len(list1) and j < len(list2):
-       if list1[i] <  list2[j]:
-        new_arr.append(list1[i])
-        i += 1
-
-    else:
-        new_arr.append(list2[j])
-        j += 1
+        if list1[i] <  list2[j]:
+            new_arr.append(list1[i])
+            i += 1
+        else:
+            new_arr.append(list2[j])
+            j += 1
 
     new_arr = new_arr + list1[i:] + list2[j:]
 
