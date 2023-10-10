@@ -4,7 +4,7 @@ class Base:
         self.y = y
 
   def shape(self):
-        return "This is a shape"
+        return "This is a " + self
 
 class Circle(Base):
     def __init__(x, size):
