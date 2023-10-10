@@ -1,0 +1,7 @@
+Two reasons why we use inheritance in a program is because it allows for code reusability. When a derived class 
+inherits the functions from a parent class, it is able to use all of the base class's functionality without having 
+to rewrite the code again and also lets us add more features to a class without changing it.
+The second reason why we use inheritance is because it helps represents real-world relationships and also provides a clear
+structure that makes it easy for software developers to create class hiearchies and minimize repitive code for programs with
+relations to each other.
+
