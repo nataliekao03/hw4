@@ -19,5 +19,6 @@ def merge_list(list1, list2):
             j += 1
 
     new_arr = new_arr + list1[i:] + list2[j:]
+    return new_arr
 
     
