@@ -1,10 +1,11 @@
 class Base:
-  def __init__(self, x, y):
+  def __init__(self, x, y, size):
         self.x = x
         self.y = y
+        self.size = size
 
   def shape(self):
-        return "This is a " + self
+        return ""
 
 class Circle(Base):
     def __init__(x, size):
