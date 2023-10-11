@@ -1,14 +1,14 @@
 class Base:
-  def __init__(self, x, y, size):
+    def __init__(self, x, y, size):
         self.x = x
         self.y = y
         self.size = size
 
-  def shape(self):
+    def shape(self):
         return ""
 
 class Circle(Base):
-    def __init__(x, size):
+    def __init__(self, x, y, size):
         super().__init__(x, y, size)
 
     def draw(self):
