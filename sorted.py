@@ -5,18 +5,18 @@ def sort_dictionary(dict):
     sorted = []
     i = 0
     j = 0
-    smallest = 0
 
     while i < len(dict):
+        greatest = 0
         while j < len(keys):
-            if vals[smallest][1] > vals[j][1]:
-                smallest = j
+            if vals[j][1] > vals[greatest]:
+                greatest = j
             
             j += 1
-        sorted.append((keys[smallest], vals[smallest][0]))
-        del keys[smallest]
-        del vals[smallest]
+        sorted.append((keys[greatest], vals[greatest]))
+        del keys[greatest]
+        del vals[greatest]
         i += 1
-        smallest = 0
+        greatest = 0
     
     return sorted
