@@ -13,7 +13,7 @@ def sort_dictionary(dict):
                 greatest = j
             
             j += 1
-        sorted.append((keys[greatest], vals[greatest]))
+        sorted.append((keys[greatest], vals[greatest][0]))
         del keys[greatest]
         del vals[greatest]
         i += 1
