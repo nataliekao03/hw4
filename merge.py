@@ -21,4 +21,3 @@ def merge_list(list1, list2):
     new_arr.extend(list2[j:]) 
     return new_arr
 
-print(merge_list([1,5,52,83],[2,6,7,8]))
