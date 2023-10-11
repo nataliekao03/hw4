@@ -5,9 +5,9 @@ def sort_dictionary(dict):
     sorted = []
     i = 0
     j = 0
-    greatest = 0
 
     while i < len(dict):
+        greatest = 0
         while j < len(keys):
             if vals[j][1] > vals[greatest][1]:
                 greatest = j
