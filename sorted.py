@@ -10,9 +10,7 @@ def sort_dictionary(input_dict):
         j = 0
 
         while j < len(keys):
-            if (
-                vals[j][1] >= vals[greatest][1]
-            ):  # Change the comparison condition to sort in descending order
+            if vals[j][1] >= vals[greatest][1]:
                 greatest = j
 
             j += 1
