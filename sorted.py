@@ -17,5 +17,6 @@ def sort_dictionary(dict):
         keys.pop(greatest)   
         vals.pop(greatest)   
         i += 1
+        greatest = 0
     
     return sorted
