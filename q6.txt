@@ -1,0 +1,12 @@
+1. Does the change inside increment_int_a change the variable a after the function call?
+    No, it doesn't change the variable after the function call because it is a pass by value
+    so therefore the value changed in the function won't affect the value outside of the function 
+    and it will not change
+2. Does the change inside increment_int_b change the variable b after the function call?
+    Yes, becasue it is a pass by reference since it is a dictionary and the key-value pair will be changed 
+    when the function is called
+3. If they differ answer why? if not why not?
+    The answers differ because one is passed by value, which doesn't change affect the variable after a function call
+    while the other is passed by reference , which changes the variable outside the function. When passed by value, there is 
+    an independent copy of that variable in memory but when passed by reference, the argument you are passing to the function
+    is a reference to a variable that already exists in memory so value types will remain unchanged
